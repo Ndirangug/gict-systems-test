@@ -16,7 +16,7 @@ export default Vue.extend({
     fetchData() {
       try {
         const response = this.$axios.get(
-          'http://developers.gictsystems.com/api/dummy/items/',
+          'https://developers.gictsystems.com/api/dummy/items/',
           {
             headers: {
               Authorization: 'Bearer ALDJAK23423JKSLAJAF23423J23SAD3',

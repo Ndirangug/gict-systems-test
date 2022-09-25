@@ -121,7 +121,7 @@ export default Vue.extend({
         this.loading = true
         try {
           const response = await this.$axios.post(
-            'http://developers.gictsystems.com/api/dummy/submit/',
+            'https://developers.gictsystems.com/api/dummy/submit/',
             {
               fullNames: this.fullNames,
               email: this.email,
